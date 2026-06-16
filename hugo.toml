@@ -1,0 +1,67 @@
+title = "Eddie Webbinaro"
+baseURL = "https://example.com/"
+theme = "hugo-resume"
+languageCode = "en-us"
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+enableGitInfo = false
+
+# --- ĐƯA CẤU HÌNH ĐỊNH DẠNG LÊN TRÊN ĐẦU TOÀN CỤC ---
+[mediaTypes."text/vcard"]
+suffixes = ["vcf"]
+
+[outputFormats.vcard]
+mediaType = "text/vcard"
+baseName = "contact"
+isPlainText = true
+notAlternative = true
+
+[outputs]
+home = ["HTML", "JSON"]
+page = ["HTML"]
+
+[taxonomies]
+tag = "tags"
+
+# --- CÁC THÔNG SỐ CÁ NHÂN CỦA BẠN ---
+[params]
+address = "Ho Chi Minh City, Vietnam"
+email = "your-email@example.com"
+favicon = "/favicon.ico"
+firstName = "Khánh Toàn"
+lastName = "Nguyễn"
+phone = "1-555-555-1234"
+profileImage = "img/TechChat.png"
+showQr = true
+showContact = true
+showBoards  = true
+showCertifications = true
+showSocializations = true
+sections = ["skills","publications","creations","contributions","experience","education","blog"]
+vcardfields = [
+    "name",
+    "image",
+    "org",
+    "email",
+    "workemail",
+    "phone",
+    "url",
+    "title"
+]
+
+[params.google]
+[params.google.analytics]
+trackerID = "XX-123446-01"
+
+[[params.handles]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/"
+
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/"
+
+[params.customSections.ham]
+    name = "SOME LINK"
+    url  = "https://example.com"
