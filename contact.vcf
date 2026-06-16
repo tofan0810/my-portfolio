@@ -16,7 +16,7 @@ EMAIL;TYPE=INTERNET,PREF:your-email@example.com
 EMAIL;TYPE=INTERNET,WORK:
 
 
-PHOTO;TYPE=JPG;VALUE=URI:https://example.com/img/TechChat.png
+PHOTO;TYPE=JPG;VALUE=URI:https://tofan0810.github.io/my-portfolio/img/TechChat.png
 
 
 ORG:Current Company LTD
@@ -25,6 +25,6 @@ ORG:Current Company LTD
 TITLE:
 
 
-URL:https://example.com/
+URL:https://tofan0810.github.io/my-portfolio/
 
 END:VCARD
