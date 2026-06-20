@@ -3,23 +3,23 @@ BEGIN:VCARD
 VERSION:4.0
 
 
-N:Nguyễn;Khánh Toàn;;;
-FN:Khánh Toàn Nguyễn
+N:Toan;Nguyen Khanh;;;
+FN:Nguyen Khanh Toan
 
 
-TEL;TYPE=WORK,VOICE:1-555-555-1234
+TEL;TYPE=WORK,VOICE:
 
 
-EMAIL;TYPE=INTERNET,PREF:your-email@example.com
+EMAIL;TYPE=INTERNET,PREF:tn421015@gmail.com
 
 
 EMAIL;TYPE=INTERNET,WORK:
 
 
-PHOTO;TYPE=JPG;VALUE=URI:https://tofan0810.github.io/my-portfolio/img/avatar.png
+PHOTO;TYPE=JPG;VALUE=URI:https://tofan0810.github.io/my-portfolio/img/avatar.jpg
 
 
-ORG:Current Company LTD
+ORG:Self-directed
 
 
 TITLE:
