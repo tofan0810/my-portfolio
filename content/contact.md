@@ -1,5 +1,5 @@
 ---
-title: Eddie Webbinaro
+title: Nguyen Khanh Toan
 layout: "contact"
 outputs: ["HTML","VCard"]
 ---

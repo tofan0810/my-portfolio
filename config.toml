@@ -1,4 +1,4 @@
-title = "Eddie Webbinaro"
+title = "Tofan0810 Portfolio"
 baseURL = "https://example.com/"
 theme = "hugo-resume"
 languageCode = "en-us"
@@ -8,19 +8,19 @@ PygmentsStyle = "monokai"
 enableGitInfo = false
 
 [params]
-address = "Rollinsford, NH"
-email = "email@domain.com"
+address = "Ho Chi Minh City, Vietnam"
+email = "tn421015@gmail.com"
 favicon = "/favicon.ico"
-firstName = "Eddie"
-lastName = "Webbinaro"
-phone = "1-555-555-1234"
-profileImage = "img/TechChat.png"
+firstName = "Nguyen Khanh"
+lastName = "Toan"
+phone = ""
+profileImage = "img/avatar.jpg"
 showQr = true
 showContact = true
-showBoards  = true
-showCertifications = true
+showBoards  = false
+showCertifications = false
 showSocializations = true
-sections = ["skills","publications","creations","contributions","experience","education","blog"]
+sections = ["skills","experience","education"]
 vcardfields = [
     "name",
     "image",
@@ -39,26 +39,20 @@ trackerID = "XX-123446-01"
 
 [[params.handles]]
     name = "LinkedIn"
-    link = "https://www.linkedin.com/in/edwardwebb/"
+    link = "https://www.linkedin.com/in/tofan0810/"
 
 [[params.handles]]
     name = "GitHub"
-    link = "https://github.com/eddiewebb/"
+    link = "https://github.com/tofan0810"
 
 [[params.handles]]
-    name = "Keybase"
-    link = "https://keybase.io/edwardawebb"
-    icon = "keybase"
-    
-[[params.handles]]
-    name = "Bluesky"
-    link = "https://bsky.app/profile/webbinaro.dev"
-    icon = "bluesky"
+    name = "Facebook"
+    link = "https://www.facebook.com/nguyen.toan.631296"
 
 [[params.handles]]
-    link = "https://stackoverflow.com/users/82880/eddie"
-    name = "Stack Overflow"
-    icon = "stack-overflow"
+    name = "YouTube"
+    link = "https://www.youtube.com/@NguyenToan_dev"
+    icon = "youtube"
 
 
 

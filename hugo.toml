@@ -1,6 +1,8 @@
-title = "Eddie Webbinaro"
-baseURL = "https://example.com/"
+title = "Tofan0810 Portfolio"
+baseURL = "https://tofan0810.github.io/my-portfolio/"
 theme = "hugo-resume"
+canonifyURLs = true
+uglyURLs = false
 languageCode = "en-us"
 PygmentsCodeFences = true
 PygmentsCodeFencesGuessSyntax = true
@@ -27,18 +29,18 @@ tag = "tags"
 # --- CÁC THÔNG SỐ CÁ NHÂN CỦA BẠN ---
 [params]
 address = "Ho Chi Minh City, Vietnam"
-email = "your-email@example.com"
+email = "tn421015@gmail.com"
 favicon = "/favicon.ico"
-firstName = "Khánh Toàn"
-lastName = "Nguyễn"
-phone = "1-555-555-1234"
-profileImage = "img/TechChat.png"
+firstName = "Nguyen Khanh"
+lastName = "Toan"
+phone = ""
+profileImage = "/img/avatar.jpg"
 showQr = true
 showContact = true
-showBoards  = true
-showCertifications = true
+showBoards  = false
+showCertifications = false
 showSocializations = true
-sections = ["skills","publications","creations","contributions","experience","education","blog"]
+sections = ["education", "projects", "experience", "skills"]
 vcardfields = [
     "name",
     "image",
@@ -56,12 +58,18 @@ trackerID = "XX-123446-01"
 
 [[params.handles]]
     name = "LinkedIn"
-    link = "https://www.linkedin.com/"
+    link = "https://www.linkedin.com/in/tofan0810/"
 
 [[params.handles]]
     name = "GitHub"
-    link = "https://github.com/"
+    link = "https://github.com/tofan0810"
 
-[params.customSections.ham]
-    name = "SOME LINK"
-    url  = "https://example.com"
+[[params.handles]]
+    name = "Facebook"
+    link = "https://www.facebook.com/nguyen.toan.631296"
+
+[[params.handles]]
+    name = "YouTube"
+    link = "https://www.youtube.com/@NguyenToan_dev"
+    icon = "youtube"
+

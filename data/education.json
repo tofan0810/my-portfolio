@@ -1,15 +1,9 @@
 [
     {
-        "school":"[Rochester Institute of Technology](https://rit.edu)",
-        "degree":"Bachelor of Science",
-        "major":"Management Information Systems",
-        "notes":"Beta Gamma Signma, High Honors",
-        "range":"2006 - 2008"
-    },
-    {
-        "school":"Clinton Community College",
-        "degree":"Associate of Applied Science",
-        "major":"Computer Information Systems",
-        "range":"2004 - 2006"
+        "school":"University of Science - VNU-HCM (HCMUS)",
+        "degree":"Student",
+        "major":"Information Technology - Cybersecurity",
+        "notes":"Second-year student",
+        "range":"Present"
     }
 ]

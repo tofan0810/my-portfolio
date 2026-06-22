@@ -9,4 +9,6 @@ outputs:
 - rss
 - json
 ---
-Proven Software Platform Engineer with experience leveraging agile, DevOps, and CI/CD to manage large scale distributed platforms both on prem and in public cloud.
+Hello. I'm Nguyen Khanh Toan, a second-year Information Technology student at HCMUS.
+
+I am focused on Information Security and training to become a SOC Analyst. I enjoy building defensive lab environments, solving security challenges, and working on cross-platform mobile development.
