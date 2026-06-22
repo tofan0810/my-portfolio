@@ -39,7 +39,13 @@ showQr = true
 showContact = true
 showBoards  = false
 showCertifications = false
+showExperience = true
+showProjects = true
+showPublications = false
+showEducation = true
 showSocializations = true
+showSkills = true
+showBlog = false
 sections = ["education", "projects", "experience", "skills"]
 vcardfields = [
     "name",

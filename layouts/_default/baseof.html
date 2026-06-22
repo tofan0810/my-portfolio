@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script>
+    document.documentElement.classList.remove('no-js');
+  </script>
+  {{ if .IsHome }}
+    <title>{{ .Site.Title }}</title>
+    <meta property="og:title" content="{{ .Site.Title }}" />
+  {{ else }}
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    <meta property="og:title" content="{{ .Title }}" />
+  {{ end }}
+  <meta property="og:image" content="{{ .Site.Params.profileImage | absURL }}" />
+  <meta name="description" content="{{ .Site.Params.description }}">
+  <meta property="og:description" content="{{ .Site.Params.description }}" />
+  <meta name="author" content="{{ .Site.Params.firstName }} {{ .Site.Params.lastName }}">
+  {{ partial "css.html" . }}
+  {{ hugo.Generator }}
+  {{ block "headfiles" . }}
+
+  {{ end }}
+</head>
+<body id="page-top">
+  {{ partial "nav.html" . }}
+  <div class="container-fluid p-0">
+    {{ block "main" . }}
+      {{ .Content }}
+    {{ end }}
+  </div>
+  <footer class="footer">
+    <div class="d-md-flex justify-content-between text-center">
+      <div>{{ with $.GitInfo }}{{ with $.Site.Params.gitCommitPrefix }}Page content generated from commit: <a href="{{ . }}/commit/{{ $.GitInfo.AbbreviatedHash }}" title="log: {{ $.GitInfo.Subject }}">{{ $.GitInfo.AbbreviatedHash }}</a>{{ end }}{{ end }}</div>
+      <div>&copy; <script>document.write(new Date().getFullYear());</script>, Designed and Coded by {{ .Site.Params.firstName }} {{ .Site.Params.lastName }}</div>
+    </div>
+  </footer>
+  {{ partial "js.html" . }}
+  {{ block "footerfiles" . }}
+
+  {{ end }}
+</body>
+</html>

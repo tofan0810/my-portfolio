@@ -1,24 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Cryptography on Tofan0810 Portfolio</title>
-		<link>http://localhost:1313/my-portfolio/tags/cryptography/</link>
-		<description>Recent content in Cryptography on Tofan0810 Portfolio</description>
-		<generator>Hugo</generator>
-		<language>en-us</language>
-		
-		
-		
-		
-			<lastBuildDate>Sun, 15 Mar 2026 10:00:00 +0700</lastBuildDate>
-		
-			<atom:link href="http://localhost:1313/my-portfolio/tags/cryptography/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>picoCTF Writeups Repository</title>
-				<link>http://localhost:1313/my-portfolio/projects/picoctf-writeups/</link>
-				<pubDate>Sun, 15 Mar 2026 10:00:00 +0700</pubDate>
-				<guid>http://localhost:1313/my-portfolio/projects/picoctf-writeups/</guid>
-				<description>&lt;h4 id=&#34;writeup--methodology&#34;&gt;Writeup &amp;amp; Methodology&lt;/h4&gt;&#xA;&lt;p&gt;Structured Approach • Multi-Domain Security • Automated Exploitations&lt;/p&gt;&#xA;&lt;p&gt;This repository serves as a systematic knowledge base documenting precision walkthroughs, critical initial observations, and vulnerability reasoning for complex CTF challenges. Solutions are structurally categorized across core cybersecurity domains including Binary Exploitation, Cryptography, Reverse Engineering, Forensics, and Web Exploitation.&lt;/p&gt;&#xA;&lt;p&gt;Every documented challenge features fully reproducible environments, original challenge artifacts (binaries, script variables, and PCAP network logs), and dedicated markdown breakdowns outlining the core lessons learned during the exploit process.&lt;/p&gt;</description>
-			</item>
-	</channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cryptography on Tofan0810 Portfolio</title><link>https://tofan0810.github.io/my-portfolio/tags/cryptography/</link><description>Recent content in Cryptography on Tofan0810 Portfolio</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 15 Mar 2026 10:00:00 +0700</lastBuildDate><atom:link href="https://tofan0810.github.io/my-portfolio/tags/cryptography/index.xml" rel="self" type="application/rss+xml"/><item><title>picoCTF Writeups Repository</title><link>https://tofan0810.github.io/my-portfolio/projects/picoctf-writeups/</link><pubDate>Sun, 15 Mar 2026 10:00:00 +0700</pubDate><guid>https://tofan0810.github.io/my-portfolio/projects/picoctf-writeups/</guid><description>&lt;h4 id="writeup--methodology"&gt;Writeup &amp;amp; Methodology&lt;/h4&gt;
+&lt;p&gt;Structured Approach • Multi-Domain Security • Automated Exploitations&lt;/p&gt;
+&lt;p&gt;This repository serves as a systematic knowledge base documenting precision walkthroughs, critical initial observations, and vulnerability reasoning for complex CTF challenges. Solutions are structurally categorized across core cybersecurity domains including Binary Exploitation, Cryptography, Reverse Engineering, Forensics, and Web Exploitation.&lt;/p&gt;
+&lt;p&gt;Every documented challenge features fully reproducible environments, original challenge artifacts (binaries, script variables, and PCAP network logs), and dedicated markdown breakdowns outlining the core lessons learned during the exploit process.&lt;/p&gt;</description></item></channel></rss>

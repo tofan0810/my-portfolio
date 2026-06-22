@@ -1,0 +1,27 @@
+{{ define "main" }}
+{{ partial "breadcrumbs" . }}
+<section class="resume-section p-3 p-lg-5 d-flex flex-column">
+  <div id="projects-content">
+    <h1 id="{{ urlize .Title }}">{{ .Title }}</h1>
+    <p>{{ .Content }}</p>
+    {{ partial "filters" . }}
+    <div class="row" id="grid">
+      {{ range .Data.Pages.ByWeight }}
+        <div class="col-6 col-sm-4 col-xl-3 grid-item {{ range .Params.tags }}{{ urlize . }} {{ end }}" data-date="{{ .Date.Unix }}" data-weight="{{ .Weight }}">
+          {{ partial (printf "content/%s%s" .Section "Summary") . }}
+        </div>
+      {{ end }}
+    </div>
+    {{ range .Sections }}
+      <h2 id="{{ urlize .Title }}"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <p>{{ .Content }}</p>
+      {{ range .Pages }}
+        {{ partial (printf "content/%s%s" .Section "Summary") . }}
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+{{ define "footerfiles" }}
+  {{ partial "isotope" . }}
+{{ end }}

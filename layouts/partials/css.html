@@ -1,0 +1,26 @@
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700&display=swap">
+
+<!-- SASS to CSS Build -->
+{{- $sass := "scss/resume.scss" }}
+{{- $cssTarget := "css/style.css" }}
+
+{{- if eq (getenv "HUGO_ENV") "production" }} <!-- Production Environment -->
+{{- $cssOpts := (dict "targetPath" $cssTarget "outputStyle" "compressed") }}
+{{- $css := resources.Get $sass | toCSS $cssOpts | minify | fingerprint }}
+<link rel="stylesheet" type="text/css" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{- else }} <!-- Development Environment -->
+{{- $cssOpts := (dict "targetPath" $cssTarget "enableSourceMap" true) }}
+{{- $css := resources.Get $sass | toCSS $cssOpts }}
+<link rel="stylesheet" type="text/css" href="{{ $css.RelPermalink }}">
+{{- end }}
+
+
+<!-- Favicon -->
+{{ with .Site.Params.favicon }}
+<link rel="shortcut icon" type="image/x-icon" href="{{ . | absURL }}">
+<link rel="icon" type="image/x-icon" href="{{ . | absURL }}">
+{{ end }}
