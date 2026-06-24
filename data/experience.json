@@ -1,20 +1,20 @@
 [
-    {
-        "role":"SOC Lab",
-        "company":"Self-directed",
-        "summary":"Designing a security monitoring system using Wazuh to detect and respond to threats.",
-        "range":"Ongoing"
-    },
-    {
-        "role":"CTF Journey",
-        "company":"picoCTF",
-        "summary":"Actively solving challenges and writing up solutions.",
-        "range":"Ongoing"
-    },
-    {
-        "role":"Flutter Developer",
-        "company":"TravelTogether",
-        "summary":"Built an Android smart tourism application with Flutter.",
-        "range":"Completed"
-    }
+  {
+    "title": "SOC Lab",
+    "subtitle": "Self-directed",
+    "summary": "Designing a security monitoring system using Wazuh to detect and respond to threats.",
+    "range": "Ongoing"
+  },
+  {
+    "title": "CTF Journey",
+    "subtitle": "picoCTF",
+    "summary": "Actively solving challenges and writing up solutions.",
+    "range": "Ongoing"
+  },
+  {
+    "title": "Flutter Developer",
+    "subtitle": "TravelTogether",
+    "summary": "Built an Android smart tourism application with Flutter.",
+    "range": "Completed"
+  }
 ]

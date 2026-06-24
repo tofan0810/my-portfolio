@@ -41,6 +41,7 @@ showBoards  = false
 showCertifications = false
 showExperience = true
 showProjects = true
+tags = ["Cybersecurity", "App Development", "Web Development", "Artificial Intelligence"]
 showPublications = false
 showEducation = true
 showSocializations = true

@@ -4,12 +4,13 @@ date: 2026-04-05T14:20:00+07:00
 featured: true
 description: "An enterprise-grade centralized security monitoring and active response platform simulated via multi-node Docker deployments."
 tags: ["Cybersecurity"]
+categories: ["Creations"]
 resources:
 - name: "image"
   src: "wazuh.png"
 weight: 520
 sitemap:
-  priority : 0.8
+  priority : 1.0
 ---
 
 #### Telemetry & Detection Engine

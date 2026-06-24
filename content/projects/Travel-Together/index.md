@@ -1,6 +1,6 @@
 ---
 title: "Travel Together"
-date: 2025-11-10T08:00:00+07:00
+date: 2025-10-29T08:09:38+07:00
 featured: true
 description: "A smart group-travel application featuring semantic AI recommendations, multi-user scheduling, and real-time communication systems."
 tags: ["App Development"]

@@ -9,7 +9,7 @@
     <div>
       {{ partial "filters" . }}
     </div>
-    {{ $featuredPages := where .Pages "Params.featured" true }}
+    {{ $featuredPages := .Pages }}
     <div class="row" id="grid">
       {{ range $featuredPages }}
         <div class="col-6 col-sm-4 col-xl-3 grid-item {{ range .Params.tags }}{{ urlize . }} {{ end }}" data-date="{{ .Date.Unix }}" data-weight="{{ .Weight }}">

@@ -1,6 +1,6 @@
 ---
 title: "FreeCell Solver"
-date: 2026-03-28T16:45:00+07:00
+date: 2026-03-13T02:00:41+07:00
 featured: true
 description: "An AI-driven FreeCell card game solver providing comprehensive algorithm benchmarking and rich graphic game tracking visualizations."
 tags: ["Artificial Intelligence"]
@@ -9,7 +9,7 @@ resources:
   src: "freecell.png"
 weight: 600
 sitemap:
-  priority : 0.8
+  priority : 0.7
 ---
 
 #### AI Search & Heuristics

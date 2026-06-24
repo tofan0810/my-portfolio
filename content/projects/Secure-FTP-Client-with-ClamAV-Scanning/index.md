@@ -1,6 +1,6 @@
 ---
 title: "Secure FTP Client with ClamAV Scanning"
-date: 2026-04-12T09:30:00+07:00
+date: 2025-06-25T03:14:21+07:00
 featured: false
 description: "A secure network file transfer system implementing automated server-side malware isolation and socket-level file streaming controls."
 tags: ["Cybersecurity"]
@@ -9,7 +9,7 @@ resources:
   src: "pythonsocket.jpg"
 weight: 530
 sitemap:
-  priority : 0.8
+  priority : 0.7
 ---
 
 #### Network FTP Infrastructure

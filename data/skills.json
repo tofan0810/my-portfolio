@@ -1,13 +1,40 @@
-[
-  {
-      "grouping":"Security Tools",
-      "skills":[ "Kali Linux","Microsoft Sentinel","Wireshark","Metasploit","Nmap","Splunk","Burp Suite","GDB"]
-  },{
-      "grouping":"Languages & Development",
-      "skills":[ "Linux","Python","C++","Bash","Flutter","Dart","Git","Docker"]
-  },
-  {
-      "grouping":"Focus Areas",
-      "skills":[ "SOC Analysis","Threat Detection","CTF Writeups","Android App Development","System Internals"]
-  }
-]
+{
+  "members": [
+    {
+      "grouping": "Security Tools",
+      "skills": [
+        "Kali Linux",
+        "Microsoft Sentinel",
+        "Wireshark",
+        "Metasploit",
+        "Nmap",
+        "Splunk",
+        "Burp Suite",
+        "GDB"
+      ]
+    },
+    {
+      "grouping": "Languages & Development",
+      "skills": [
+        "Linux",
+        "Python",
+        "C++",
+        "Bash",
+        "Flutter",
+        "Dart",
+        "Git",
+        "Docker"
+      ]
+    },
+    {
+      "grouping": "Focus Areas",
+      "skills": [
+        "SOC Analysis",
+        "Threat Detection",
+        "CTF Writeups",
+        "Android App Development",
+        "System Internals"
+      ]
+    }
+  ]
+}

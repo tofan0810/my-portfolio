@@ -1,6 +1,6 @@
 ---
 title: "Pussy Invaders Game"
-date: 2025-12-20T21:00:00+07:00
+date: 2025-06-23T07:13:54+07:00
 featured: false
 description: "A hardware-accelerated 2D retro space shooter developed in C++17 using the Raylib multimedia framework."
 tags: ["App Development"]
@@ -9,7 +9,7 @@ resources:
   src: "game.png"
 weight: 710
 sitemap:
-  priority : 0.8
+  priority : 0.6
 ---
 
 #### Gameplay Engine Architecture

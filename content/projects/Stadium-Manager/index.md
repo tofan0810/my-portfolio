@@ -1,6 +1,6 @@
 ---
 title: "Stadium Manager"
-date: 2026-02-18T10:30:00+07:00
+date: 2025-06-28T13:23:24+07:00
 featured: true
 description: "An enterprise-grade desktop management application written in C++ and Qt 6 to streamline multi-sport complex operations."
 tags: ["App Development"]
@@ -9,7 +9,7 @@ resources:
   src: "stadium.jpg"
 weight: 700
 sitemap:
-  priority : 0.8
+  priority : 0.5
 ---
 
 #### Operations & UI Framework

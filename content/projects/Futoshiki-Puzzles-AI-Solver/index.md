@@ -1,6 +1,6 @@
 ---
 title: "Futoshiki Puzzles AI Solver"
-date: 2026-04-02T13:10:00+07:00
+date: 2026-04-07T07:19:38+07:00
 featured: false
 description: "An advanced reasoning tool resolving spatial mathematical grids using both logical constraint propagation and SAT-solving engines."
 tags: ["Artificial Intelligence"]
@@ -9,7 +9,7 @@ resources:
   src: "futoshiki.png"
 weight: 610
 sitemap:
-  priority : 0.8
+  priority : 0.7
 ---
 
 #### Logical Inference Solvers

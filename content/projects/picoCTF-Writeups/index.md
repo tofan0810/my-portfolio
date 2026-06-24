@@ -1,15 +1,15 @@
 ---
 title: "picoCTF Writeups Repository"
-date: 2026-03-15T10:00:00+07:00
+date: 2026-04-14T08:12:19+07:00
 featured: true
 description: "A personal knowledge repository documenting step-by-step methodologies and custom exploit scripts for resolving picoCTF challenges."
-tags: ["Cybersecurity", "Reverse Engineering", "Cryptography"]
+tags: ["Cybersecurity"]
 resources:
 - name: "image"
   src: "picoctf.png"
 weight: 500
 sitemap:
-  priority : 0.8
+  priority : 0.9
 ---
 
 #### Writeup & Methodology
