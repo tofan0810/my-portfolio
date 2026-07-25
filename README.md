@@ -40,17 +40,21 @@ Here are some key projects documented and featured in this portfolio:
    - *Description:* An enterprise-grade centralized security monitoring and active response platform simulated via multi-node Docker deployments.
    - *Key Features:* MITRE ATT&CK mapping, custom XML decoders, active response firewalls against brute-forcing, and Discord/chat webhook incident notifications.
 
-2. **[Travel Together Smart Tourism App](https://github.com/24127137/TravelTogether)**
+2. **[picoCTF Writeups](https://github.com/tofan0810/picoCTF-writeups)**
+   - *Desciption:* A structured collection of writeups and resources documenting step-by-step solutions and methodology for various picoCTF challenges.
+   - *Key Features:* Categorized by domain (Crypto, Web, Forensics, Reverse Engineering, etc.), consistent writeup format featuring detailed reasoning and scripts, and designed as a structured learning archive.
+
+3. **[Travel Together Smart Tourism App](https://github.com/24127137/TravelTogether)**
    - *Description:* A smart group-travel coordinate tool built with Flutter/Dart and a FastAPI backend.
    - *Key Features:* Integrated with Google Gemini AI for contextual/semantic route optimization, real-time WebSockets communication, and emergency coordinate telemetry broadcasting.
 
-3. **[Secure FTP Client with ClamAV Isolation](https://github.com/tofan0810/PYTHONSOCKET)**
+4. **[Secure FTP Client with ClamAV Isolation](https://github.com/tofan0810/PYTHONSOCKET)**
    - *Description:* A secure Python network file transfer program implementing multi-threaded passive/active socket transfers and server-side virus scanning isolation using ClamAV.
 
-4. **Academic & AI Solvers**
+5. **Academic & AI Solvers**
    - *Freecell Solver:* Optimized solver algorithms.
    - *Futoshiki Puzzles AI Solver:* AI-driven backtracking and constraint satisfaction solvers.
-   - *Secure Fingerprint Vault & Stadium Manager:* Security-first software applications.
+   - *Secure Fingerprint Vault & Stadium Manager:* Security software applications.
 
 ---
 

@@ -3,37 +3,37 @@
     {
       "grouping": "Security Tools",
       "skills": [
-        "Kali Linux",
-        "Microsoft Sentinel",
-        "Wireshark",
-        "Metasploit",
-        "Nmap",
-        "Splunk",
-        "Burp Suite",
-        "GDB"
+        { "name": "Kali Linux", "icon": "devicon-kalilinux-plain colored" },
+        { "name": "Microsoft Sentinel", "icon": "fa-solid fa-shield-halved text-primary" },
+        { "name": "Wireshark", "icon": "fa-solid fa-network-wired text-info" },
+        { "name": "Metasploit", "icon": "fa-solid fa-bug-slash text-danger" },
+        { "name": "Nmap", "icon": "fa-solid fa-radar text-success" },
+        { "name": "Splunk", "icon": "fa-solid fa-chart-line text-warning" },
+        { "name": "Burp Suite", "icon": "fa-solid fa-spider text-danger" },
+        { "name": "GDB", "icon": "fa-solid fa-terminal text-secondary" }
       ]
     },
     {
       "grouping": "Languages & Development",
       "skills": [
-        "Linux",
-        "Python",
-        "C++",
-        "Bash",
-        "Flutter",
-        "Dart",
-        "Git",
-        "Docker"
+        { "name": "Linux", "icon": "devicon-linux-plain colored" },
+        { "name": "Python", "icon": "devicon-python-plain colored" },
+        { "name": "C++", "icon": "devicon-cplusplus-plain colored" },
+        { "name": "Bash", "icon": "devicon-bash-plain colored" },
+        { "name": "Flutter", "icon": "devicon-flutter-plain colored" },
+        { "name": "Dart", "icon": "devicon-dart-plain colored" },
+        { "name": "Git", "icon": "devicon-git-plain colored" },
+        { "name": "Docker", "icon": "devicon-docker-plain colored" }
       ]
     },
     {
       "grouping": "Focus Areas",
       "skills": [
-        "SOC Analysis",
-        "Threat Detection",
-        "CTF Writeups",
-        "Android App Development",
-        "System Internals"
+        { "name": "SOC Analysis", "icon": "fa-solid fa-user-shield text-info" },
+        { "name": "Threat Detection", "icon": "fa-solid fa-shield-virus text-danger" },
+        { "name": "CTF Writeups", "icon": "fa-solid fa-flag text-warning" },
+        { "name": "Android App Development", "icon": "devicon-android-plain colored" },
+        { "name": "System Internals", "icon": "fa-solid fa-cpu text-primary" }
       ]
     }
   ]

@@ -26,16 +26,17 @@
         <div class="lead mb-4" style="font-weight: 400;">
           {{ .Content }}
         </div>
-              <div class="social-icons">
-                {{ range .Site.Params.social }}
-                {{ if eq .name "Email" }}
-                {{ partial "email-link.html" (dict "email" $.Site.Params.email "icon" .icon "title" .name "dataToggle" "tooltip") }}
-                {{ else }}
-                <a href="{{ .link }}" data-toggle="tooltip" title="{{ .name }}">
-                  <i class="{{ .icon }}"></i>
-                </a>
-                {{ end }}
-                {{ end }}
-              </div>
+        <div class="social-icons">
+          {{ $socials := .Site.Params.social | default .Site.Params.handles }}
+          {{ range $socials }}
+          {{ if eq .name "Email" }}
+          {{ partial "email-link.html" (dict "email" $.Site.Params.email "icon" (.icon | default "fas fa-envelope") "title" .name "dataToggle" "tooltip") }}
+          {{ else }}
+          <a href="{{ .link }}" data-toggle="tooltip" title="{{ .name }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .name }}">
+            <i class="{{ .icon }}"></i>
+          </a>
+          {{ end }}
+          {{ end }}
+        </div>
       </div>
     </section>

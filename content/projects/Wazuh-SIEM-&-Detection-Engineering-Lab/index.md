@@ -8,7 +8,7 @@ categories: ["Creations"]
 resources:
 - name: "image"
   src: "wazuh.png"
-weight: 520
+weight: 1
 sitemap:
   priority : 1.0
 ---
