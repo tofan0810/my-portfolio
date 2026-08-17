@@ -1,7 +1,7 @@
 title = "Tofan0810 Portfolio"
 baseURL = "https://tofan0810.github.io/my-portfolio/"
 theme = "hugo-resume"
-canonifyURLs = true
+canonifyURLs = false
 uglyURLs = false
 languageCode = "en-us"
 PygmentsCodeFences = true
