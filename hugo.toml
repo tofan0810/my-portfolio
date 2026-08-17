@@ -30,11 +30,11 @@ tag = "tags"
 [params]
 address = "Ho Chi Minh City, Vietnam"
 email = "tn421015@gmail.com"
-favicon = "/favicon.ico"
+favicon = "favicon.ico"
 firstName = "Nguyen Khanh"
 lastName = "Toan"
 phone = ""
-profileImage = "/img/avatar.jpg"
+profileImage = "img/avatar.jpg"
 showQr = true
 showContact = true
 showBoards  = false
