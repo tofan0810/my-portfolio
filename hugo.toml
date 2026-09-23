@@ -35,10 +35,11 @@ firstName = "Nguyen Khanh"
 lastName = "Toan"
 phone = ""
 profileImage = "img/avatar.jpg"
+resumePDF = "resume.pdf"
 showQr = true
 showContact = true
 showBoards  = false
-showCertifications = false
+showCertifications = true
 showExperience = true
 showProjects = true
 tags = ["Cybersecurity", "App Development", "Web Development", "Artificial Intelligence"]
@@ -47,7 +48,7 @@ showEducation = true
 showSocializations = true
 showSkills = true
 showBlog = false
-sections = ["education", "projects", "experience", "skills"]
+sections = ["education", "projects", "experience", "skills", "certifications"]
 vcardfields = [
     "name",
     "image",

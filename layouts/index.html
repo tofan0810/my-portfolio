@@ -27,6 +27,9 @@
    {{ if .Site.Params.showSkills }}
        {{ partial "portfolio/skills.html" . }}
    {{ end }}
+   {{ if .Site.Params.showCertifications }}
+       {{ partial "portfolio/certifications.html" . }}
+   {{ end }}
    {{ if .Site.Params.showBlog }}
       {{ with .Site.GetPage "section" "blog" }}
          {{ .Scratch.Set "sectionId" "blog" }}

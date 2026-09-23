@@ -3,7 +3,7 @@ title: "LIT CTF 2026 Writeups"
 date: 2026-08-02T22:06:31+07:00
 featured: true
 description: "Official solutions, exploit scripts, and comprehensive CTF writeups from team HCMUS-Lazarus for LITCTF 2026."
-tags: ["Cybersecurity"]
+tags: ["Cybersecurity", "CTF-Writeups"]
 resources:
 - name: "image"
   src: "litctf.png"

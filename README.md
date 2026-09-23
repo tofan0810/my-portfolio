@@ -14,7 +14,7 @@ Welcome to my personal portfolio repository! This project is a beautiful, highly
 
 ## 👨‍💻 About Me
 
-Hello! I am **Nguyen Khanh Toan** (also known online as **Tofan0810** or **Nguyen Toan**), a second-year Information Technology student majoring in **Cybersecurity** at the **University of Science - VNU-HCM (HCMUS)**.
+Hello! I am **Nguyen Khanh Toan** (also known online as **Tofan0810** or **Nguyen Toan**), a third-year Information Technology student majoring in **Cybersecurity** at the **University of Science - VNU-HCM (HCMUS)**.
 
 - 🛡️ **Focus Areas:** SOC Analysis, Defensive Labs, Threat Detection, System Internals, and CTFs.
 - 📱 **Secondary Focus:** Cross-platform mobile development (Flutter/Dart).

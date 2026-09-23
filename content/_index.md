@@ -9,6 +9,6 @@ outputs:
 - rss
 - json
 ---
-Hello. I'm Nguyen Khanh Toan, a second-year Information Technology student at HCMUS.
+Hello. I'm Nguyen Khanh Toan, a third-year Information Technology student at HCMUS.
 
 I am focused on Information Security and training to become a SOC Analyst. I enjoy building defensive lab environments, solving security challenges, and working on cross-platform mobile development.
